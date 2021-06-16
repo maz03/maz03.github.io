@@ -1,108 +1,12 @@
-font-family{
-	"Arial", "Helvetica"
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
 }
 
-ul.topnav {
-  list-style-type: none;
-  font-family: 'Arial';
-  font-size: 18px;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  background-color: #4D4D4D;
+header {
+  background: #55d6aa;
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 20px 125px;
-  width: auto;
-  height: auto;
-  min-width: ;
-  text-decoration: none;
-  border: 2px sold #333;
-  border-color: #333;
-}
-
-ul.topnav li a:hover:not(.active) {
-	background-color: #333;
-	border: 1px solid black;
-}
-
-ul.topnav li a.active {
-	background-color: #666666;
-	border: 1px solid #4D4D4D;
-}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
-
-.head {
-	font-family: "Arial";
-	color: white;
-	font-size: 40px;
-	font-weight: bold;
-	text-align: left;
-	margin-left: 50px;
-}
-
-.head-center {
-	font-family: "Arial";
-	color: white;
-	font-size: 40px;
-	font-weight: bold;
-	text-align: center;
-	margin-left: 50px;
-	text-decoration: underline;
-}
-
-.text {
-	font-family: "Arial";
-	color: white;
-	font-size: 20px;
-	font-weight: normal;
-	text-align: left;
-	margin-left: 50px;
-	margin-right: 250px;
-}
-.text-center {
-	font-family: "Arial";
-	color: white;
-	font-size: 20px;
-	font-weight: normal;
-	text-align: center;
-}
-.link {
-	font-family: "Arial";
-	color: blue;
-	font-size: 20px;
-	font-weight: normal;
-	text-align: left;
-	margin-left: 50px;
-	margin-right: 250px;
-}
-.image-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 60%;
-  width: 60%;
-  padding: 5px 5px 5px 5px;
-  border: 2px solid grey;
-}
-.image-center-small {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 40%;
-  width: 40%;
-  padding: 5px 5px 5px 5px;
-  border: 2px solid grey;
-}
